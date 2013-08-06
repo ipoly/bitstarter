@@ -85,6 +85,19 @@
                 margin: 0 auto;
             }
         </style>
+        <script type="text/javascript">
+
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-XXXXX-X']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+             var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+             ga.src = ('https:'  ==  document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+             })();
+
+    </script>
     </head>
     <body>
         <div class="navbar navbar-inverse navbar-fixed-top">
@@ -169,7 +182,7 @@
                         <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
                         <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51ffcb0d70d535a9"></script>
                         <!-- AddThis Button END -->
-                    
+
                     </div>
                 </div>
             </div>
@@ -214,7 +227,7 @@
                             </div>
                             <div id="collapseTwo" class="accordion-body collapse">
                                 <div class="accordion-inner">
-                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis lectus metus, at posuere neque. Sed pharetra nibh eget orci convallis at posuere leo convallis. Sed blandit augue vitae augue scelerisque bibendum. Vivamus sit amet libero turpis, non venenatis urna. In blandit, odio convallis suscipit venenatis, ante ipsum cursus augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis lectus metus, at posuere neque. Sed pharetra nibh eget orci convallis at posuere leo convallis. Sed blandit augue vitae augue scelerisque bibendum. Vivamus sit amet libero turpis, non venenatis urna. In blandit, odio convallis suscipit venenatis, ante ipsum cursus augue.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis lectus metus, at posuere neque. Sed pharetra nibh eget orci convallis at posuere leo convallis. Sed blandit augue vitae augue scelerisque bibendum. Vivamus sit amet libero turpis, non venenatis urna. In blandit, odio convallis suscipit venenatis, ante ipsum cursus augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis lectus metus, at posuere neque. Sed pharetra nibh eget orci convallis at posuere leo convallis. Sed blandit augue vitae augue scelerisque bibendum. Vivamus sit amet libero turpis, non venenatis urna. In blandit, odio convallis suscipit venenatis, ante ipsum cursus augue.
                                 </div>
                             </div>
                         </div>
@@ -225,13 +238,22 @@
             <div class="row-fluid footer">
                 <div class="span12">
                     <p>
-                        This work is licensed under the
-                        <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC By-SA 3.0</a>,
-                        without all the cruft that would otherwise be put at the bottom of the page.
+                    This work is licensed under the
+                    <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC By-SA 3.0</a>,
+                    without all the cruft that would otherwise be put at the bottom of the page.
                     </p>
                 </div>
             </div>
         </div>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-42988951-1', 'herokuapp.com');
+            ga('send', 'pageview');
+        </script>
     </body>
 </html>
 
